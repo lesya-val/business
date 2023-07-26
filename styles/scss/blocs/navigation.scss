@@ -1,0 +1,39 @@
+.navigation {
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+	&__nav {
+		background-color: $secondary-02;
+		max-height: 38px;
+	}
+
+	&__list {
+		display: flex;
+		padding-left: 60px;
+	}
+
+	&__item {
+		display: flex;
+		padding: 9px 40px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+
+		border-radius: 20px 20px 0px 0px;
+		
+		text-align: center;
+		font-size: 16px;
+		font-weight: 500;
+
+		&--black {
+			background-color: $grayscale-01;
+			color: $grayscale-07;
+		}
+
+		&--transparent {
+			color: $grayscale-00;
+		}
+	}
+}

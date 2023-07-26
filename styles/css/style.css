@@ -77,6 +77,39 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navigation__nav {
+  background-color: #FFAA4C;
+  max-height: 38px;
+}
+.navigation__list {
+  display: flex;
+  padding-left: 60px;
+}
+.navigation__item {
+  display: flex;
+  padding: 9px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navigation__item--black {
+  background-color: #181818;
+  color: #FFFFFF;
+}
+.navigation__item--transparent {
+  color: #000000;
+}
+
 .wrapper {
   background: #181818;
   min-height: 100%;
