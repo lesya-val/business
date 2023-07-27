@@ -27,7 +27,7 @@ $grayscale-06: #F5F5F5;
 $grayscale-07: #FFFFFF;
 
 // Primary
-
+$primary-01: #954CED;
 // Secondary
 $secondary-02: #FFAA4C;
 // Additional
@@ -43,7 +43,19 @@ $secondary-02: #FFAA4C;
 @import "blocs/blocs.scss";
 
 //****************************************ОБЩИЕ ПАРАМЕТРЫ***************************************************
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
+	padding: 16px 30px;
+	gap: 14px;
+	border-radius: 16px;
+
+	background-color: $primary-01;
+	color: $grayscale-07;
+	font-weight: 600;
+}
 //****************************************ОБОЛОЧКА**********************************************************
 .wrapper {
   background: $grayscale-01;

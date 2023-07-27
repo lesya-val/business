@@ -6,7 +6,6 @@
 
 	&__nav {
 		background-color: $secondary-02;
-		max-height: 38px;
 	}
 
 	&__list {
@@ -22,6 +21,7 @@
 		gap: 10px;
 
 		border-radius: 20px 20px 0px 0px;
+		height: 38px;
 		
 		text-align: center;
 		font-size: 16px;
