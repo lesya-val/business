@@ -1,0 +1,53 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.about__title {
+  margin-bottom: 80px;
+  margin-left: 60px;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 106%;
+}
+.about__content {
+  display: flex;
+  gap: 100px;
+}
+.about__left {
+  display: flex;
+  flex-direction: column;
+  gap: 147px;
+}
+.about__info {
+  width: 410px;
+  margin-left: 60px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.about__right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-right: 125px;
+}
+.about__item {
+  max-width: 336px;
+  max-height: 377px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about__item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about__item-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 106%;
+}
+.about__item-text {
+  font-size: 24px;
+  line-height: 120%;
+}
