@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1001;
   position: absolute;
   width: 100%;
-  height: 38px;
+  height: 40px;
 }
 .navigation__nav {
   background-color: #FFAA4C;
@@ -202,6 +202,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 60px;
   font-size: 36px;
   font-weight: 600;
+  z-index: 100;
+}
+.about__highlight::before {
+  width: 353px;
+  height: 34px;
 }
 .about__right {
   display: flex;
@@ -255,13 +260,10 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   position: absolute;
   z-index: -1;
-  top: 0;
-  left: 0;
-  width: 353.39px;
-  height: 34.44px;
+  top: 10px;
+  left: -5px;
   background-color: #A64CED;
   border-radius: 30px;
-  transform-origin: 0 0;
   transform: rotate(-1.693deg) scale(1, 1);
 }
 

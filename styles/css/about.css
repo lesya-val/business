@@ -23,6 +23,11 @@
   margin-left: 60px;
   font-size: 36px;
   font-weight: 600;
+  z-index: 100;
+}
+.about__highlight::before {
+  width: 353px;
+  height: 34px;
 }
 .about__right {
   display: flex;
