@@ -1,0 +1,22 @@
+.percents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  gap: 100px;
+}
+.percents__item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.percents__title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 106%;
+}
+.percents__text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+}

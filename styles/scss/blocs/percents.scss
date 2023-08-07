@@ -1,0 +1,27 @@
+.percents {
+	background-color: $primary-01;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 0;
+	gap: 100px;
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		max-width: 217px;
+	}
+
+	&__title {
+		font-size: 64px;
+		font-weight: 700;
+		line-height: 106%;
+	}
+
+	&__text {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 120%
+	}
+}

@@ -32,6 +32,7 @@ $grayscale-07: #FFFFFF;
 $primary-01: #954CED;
 $primary-02: #A64CED;
 // Secondary
+$secondary-01: #2FDBBC;
 $secondary-02: #FFAA4C;
 // Additional
 
@@ -47,6 +48,8 @@ $secondary-02: #FFAA4C;
 @import 'blocs/header.scss';
 @import 'blocs/hero.scss';
 @import 'blocs/about.scss';
+@import 'blocs/how-works.scss';
+@import 'blocs/percents.scss';
 
 //****************************************ОБЩИЕ ПАРАМЕТРЫ***************************************************
 .main {
@@ -81,6 +84,43 @@ $secondary-02: #FFAA4C;
   border-radius: 30px;
   transform: rotate(-1.693deg) scale(1, 1);
 }
+
+@keyframes moveRight {
+	0% { transform: translateX(-50%); }
+	100% { transform: translateX(0%); }
+}
+
+.move-right {
+	animation: moveRight 10s linear infinite;
+}
+
+@keyframes moveLeft {
+	0% { transform: translateX(0%); }
+	100% { transform: translateX(-50%); }
+}
+
+.move-left {
+	animation: moveLeft 10s linear infinite;
+}
+
+.text {
+	&--border {
+		color: transparent;
+		-webkit-text-stroke: 1px $grayscale-02;
+	}
+
+	&--prim02 {
+		color: $primary-02;
+	}
+
+	&--sec01 {
+		color: $secondary-01;
+	}
+
+	&--sec02 {
+		color: $secondary-02;
+	}
+}
 //****************************************ОБОЛОЧКА**********************************************************
 .wrapper {
   background: $grayscale-01;
@@ -89,7 +129,7 @@ $secondary-02: #FFAA4C;
 }
 //****************************************ОСНОВНАЯ СЕТКА****************************************************
 .container {
-  padding-top: 100px;
+  margin-top: 100px;
 }
 //****************************************АДАПТИВ****************************************************
 @import "media.scss";

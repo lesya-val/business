@@ -1,0 +1,29 @@
+.how-works {
+	position: relative;
+	padding: 36px 0;
+
+	&__back {
+		display: flex;
+    flex-direction: column;
+    gap: 68px;
+		overflow: hidden;
+	}
+
+	&__line {
+		display: flex;
+		gap: 20px;
+	}
+
+	&__line-text {
+		font-size: 128px;
+		font-weight: 700;
+		line-height: 106%;
+		white-space: nowrap;
+	}
+
+	&__phone {
+		position: absolute;
+		top: 0;
+		left: 40%;
+	}
+}

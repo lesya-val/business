@@ -1,0 +1,25 @@
+.how-works {
+  position: relative;
+  padding: 36px 0;
+}
+.how-works__back {
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+  overflow: hidden;
+}
+.how-works__line {
+  display: flex;
+  gap: 20px;
+}
+.how-works__line-text {
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 106%;
+  white-space: nowrap;
+}
+.how-works__phone {
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
